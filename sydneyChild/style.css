@@ -11,6 +11,7 @@ body {
 	overflow-x: hidden;
 }
 
+/* texte page d'acceuil */
 #textIntro {
   text-align: center;
 }
@@ -20,23 +21,28 @@ body {
 	margin-bottom: 30px;
 }
 
+/* icone recherche */
 .search-icon {
 	background: #fff;
 	border-radius: 30%;
 }
 
+
 .trHover:hover {
 	background: rgba(214, 80, 80, 0.5);
 }
 
+/* centrer titre page */
 .entry-header h1 {
 	text-align: center;
 }
 
+/* footer copyright */
 h8 {
   color: #fff;
 }
 
+/* formulaire booking event */
 .em-booking-login {
 	display:none;
 }
@@ -49,6 +55,26 @@ h8 {
 	display: none;
 }
 
+/* trait rouge */
 .content-area .hentry:after {
 	width: 100%;
+}
+
+/* hover couleur tableau event */
+@media screen and (min-width: 780px) {
+	tr:hover {
+		background: rgba(214, 80, 80, 0.5);
+	}
+}
+
+@media screen and (max-width: 480px) {
+	td {
+		display: flex;
+	}
+	td:nth-child(4) {
+		margin-bottom: 20px;
+	}
+	th {
+		display: none;
+	}
 }
