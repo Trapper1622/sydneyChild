@@ -7,6 +7,10 @@ Template: sydney
 Version: 1.0.0
 */
 
+body {
+	overflow-x: hidden;
+}
+
 #textIntro {
   text-align: center;
 }
@@ -31,4 +35,20 @@ Version: 1.0.0
 
 h8 {
   color: #fff;
+}
+
+.em-booking-login {
+	display:none;
+}
+
+.em-booking-form-details p:nth-child(6) {
+	display: none;
+}
+
+#secondary {
+	display: none;
+}
+
+.content-area .hentry:after {
+	width: 100%;
 }
